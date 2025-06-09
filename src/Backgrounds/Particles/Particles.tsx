@@ -227,6 +227,7 @@ const Particles: React.FC<ParticlesProps> = ({
       }
     };
   }, [
+    particleColors,
     particleCount,
     particleSpread,
     speed,

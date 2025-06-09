@@ -14,8 +14,17 @@ const raleway = Raleway({
 });
 
 export const metadata: Metadata = {
-  title: "Ryan NV",
-  description: "Ryan's Homepage",
+  title: "RYAN-NV",
+  description: "Ryan Noval Pratama | Full-stack Developer, Software Engineer",
+  keywords: "Ryan Noval Pratama, Ryan Noval, Full-stack Developer",
+  robots: "index, follow",
+  openGraph: {
+    title: "RYAN-NV",
+    siteName: "Ryan Noval Pratama",
+    url: 'https://ryan-nv.vercel.app',
+    description: "Ryan Noval Pratama | Full-stack Developer, Software Engineer",
+    images: "https://ryan-nv.vercel.app/logo-nv.png",
+  }
 };
 
 export default function RootLayout({
