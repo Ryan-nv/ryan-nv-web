@@ -7,7 +7,6 @@ import Link from "next/link";
 import TypewriterComponent from "typewriter-effect";
 import CardSwap, { Card } from "@/components/CardSwap/CardSwap";
 import { Button } from "@heroui/button";
-import { ThemeSwitcher } from "@/components/misc/ThemeSwitcher";
 import { useState } from "react";
 
 type TechStack = {
