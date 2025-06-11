@@ -1,7 +1,7 @@
 'use client';
 import Image from "next/image";
 import Particles from "@/Backgrounds/Particles/Particles";
-import { ChevronDownIcon, EnvelopeIcon as OutlineEnvelopeIcon, CubeIcon as OutlineCubeIcon, MapPinIcon, GlobeAltIcon, ClockIcon, UserPlusIcon, BuildingOffice2Icon, CalendarIcon, CheckCircleIcon, HomeModernIcon, CubeTransparentIcon, Squares2X2Icon, BanknotesIcon, GlobeAsiaAustraliaIcon, CogIcon, XCircleIcon} from "@heroicons/react/24/outline";
+import { ChevronDownIcon, EnvelopeIcon as OutlineEnvelopeIcon, CubeIcon as OutlineCubeIcon, MapPinIcon, GlobeAltIcon, ClockIcon, UserPlusIcon, BuildingOffice2Icon, CalendarIcon, CheckCircleIcon, HomeModernIcon, CubeTransparentIcon, Squares2X2Icon, BanknotesIcon, GlobeAsiaAustraliaIcon, CogIcon, XCircleIcon, DocumentTextIcon} from "@heroicons/react/24/outline";
 import { EnvelopeIcon, CheckCircleIcon as CheckCircleIconSolid, CubeIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import TypewriterComponent from "typewriter-effect";
@@ -278,7 +278,7 @@ export default function Home() {
                 I value knowledge a lot, this allows me to stay at the forefront of technological innovations.
                 Aside from that, I also love to help people learn new things, because I believe the highest form of understanding is to teach, to share what I know and to accept what I don&apos;t.
               </p>
-              <div className="flex flex-col text-start gap-4 w-full">
+              <div className="flex flex-col text-start gap-4 w-full mb-4 sm:mb-6">
                 <h4 className="text-xl font-raleway font-semibold">⚡ Core Technologies</h4>
                 <div className="flex flex-wrap gap-3 w-full">
                   <div className="flex gap-3 py-1 sm:py-2 px-2 sm:px-4 rounded-2xl w-fit border dark:border-indigo-950 items-center text-start bg-white dark:bg-gradient-to-br from-indigo-950 to-slate-950">
@@ -312,6 +312,13 @@ export default function Home() {
                     <span>Linux</span>
                   </div>
                 </div>
+              </div>
+              <div className="flex flex-col text-start gap-4 w-full">
+                  
+                <Link href={'/assets/pdf/resume-ryan-noval-pratama.pdf'} download className="duration-200 hover:ring hover:ring-blue-600/20 flex gap-3 py-2 sm:py-4 px-3 sm:px-6 rounded-2xl w-full border dark:border-gray-900 items-center text-start">
+                  <DocumentTextIcon className="size-5"/>
+                  <span>Download Resume</span>
+                </Link>
               </div>
             </div>
           </div>
